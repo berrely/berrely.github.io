@@ -1,18 +1,19 @@
 /* Font Stuff */
 @font-face {
-    font-family: "TW Cen MT";
-    src: url(twcenmt.ttf) format("truetype");
+    font-family: "P22 Johnston Underground Regular";
+    src: url(P22JohnstonUndergroundRegular.otf) format("opentype");
 }
-p.twcenmt { 
-    font-family: "TW Cen MT";
-    color: #FFDA20;
+p { 
+    font-family: "P22 Johnston Underground Regular";
+    font-size: 300%;
+    color: #ffffff;
 }
 p.twcenmtred { 
-    font-family: "TW Cen MT";
+    font-family: "P22 Johnston Underground Regular";
     color: #D00000;
 }
 p.twcenmtlightgray { 
-    font-family: "TW Cen MT";
+    font-family: "P22 Johnston Underground Regular";
     color: #A4A4A4;
 }
 p.bold { 
@@ -24,4 +25,10 @@ p {
     margin-bottom: 0em;
     margin-left: 0;
     margin-right: 0;
+}
+/* Background Image */
+body {
+    background-image: url("assets/images/background/background.jpg");
+    background-color: #000000;
+    background-position: 0%;
 }

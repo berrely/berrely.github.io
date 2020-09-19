@@ -17,6 +17,12 @@ p.secondary {
     text-align: center;
     line-height: 120%;
 }
+a.secondary-link { 
+    font-family: "P22 Johnston Underground Regular";
+    font-size: 100%;
+    color: #ffffff;
+    line-height: 120%;
+}
 p.twcenmtlightgray { 
     font-family: "P22 Johnston Underground Regular";
     color: #A4A4A4;
@@ -37,3 +43,27 @@ body {
     background-color: #000000;
     background-position: 0%;
 }
+/* Centre */
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/* Link Colors */
+	/* unvisited link */
+    a:link {
+        color: #FFDA20;
+    }
+    /* visited link */
+    a:visited {
+        color: #FFDA20;
+    }
+    /* mouse over link */
+    a:hover {
+        color: #FFDA20;
+    }
+    /* selected link */
+    a:active {
+        color: #FF0000;
+    }

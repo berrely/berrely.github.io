@@ -1,0 +1,27 @@
+/* Font Stuff */
+@font-face {
+    font-family: "TW Cen MT";
+    src: url(twcenmt.ttf) format("truetype");
+}
+p.twcenmt { 
+    font-family: "TW Cen MT";
+    color: #FFDA20;
+}
+p.twcenmtred { 
+    font-family: "TW Cen MT";
+    color: #D00000;
+}
+p.twcenmtlightgray { 
+    font-family: "TW Cen MT";
+    color: #A4A4A4;
+}
+p.bold { 
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+}
